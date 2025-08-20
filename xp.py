@@ -1,77 +1,59 @@
-# exercices xp:
+exercices xp:
 
 
-# exercice 1:
+exercice 1:
 
-# def display_message():
-#     print('i am learning python')
+def display_message():
+    print('i am learning python')
 
-# display_message()
-
-
-
-
-
-
-# exercice 2:
-
-# def fav_book(title):
-#     print(f'one of my fav books is {title} ')
-
-
-
-# fav_book('Harry Potter')
-
-
-
-
-# exercice 3
-
-# def describe_city(city, country):
-#     print(f'{city} is in {country}')
-
-# describe_city('Jerusalem', 'Israel')
-# describe_city('Paris' , 'France')
+display_message()
 
 
 
 
 
-# exercice4
 
-# import random
+exercice 2:
 
-# def random_number():
+def fav_book(title):
+    print(f'one of my fav books is {title} ')
+
+
+
+fav_book('Harry Potter')
+
+
+
+
+exercice 3
+
+def describe_city(city, country):
+    print(f'{city} is in {country}')
+
+describe_city('Jerusalem', 'Israel')
+describe_city('Paris' , 'France')
+
+
+
+
+
+exercice4
+
+import random
+
+def random_number():
     
-#     num = random.randint(1, 100)
-#     print(f"Your random number is: {num}")
-#     num2 = random.randint(1, 100)
-#     print(f'your random number is {num2}')
+    num = random.randint(1, 100)
+    print(f"Your random number is: {num}")
+    num2 = random.randint(1, 100)
+    print(f'your random number is {num2}')
 
-#     if num == num2:
-#         print('go buy a loto ticket')
-#     else:
-#         print(f'next time houya! {num},{num2}')
+    if num == num2:
+        print('go buy a loto ticket')
+    else:
+        print(f'next time houya! {num},{num2}')
 
-# random_number()
-
-
-
-
-
-
-
-
-# exercice5
-
-# def make_shirt(size='Large', message="i love python" ):
-#    print(f'the size of the shirt is {size} and the text is {message}') 
-
-# make_shirt()
-# make_shirt('XL')
-# make_shirt('Medium')
-# make_shirt('Small', "ICI C'EST PARIS")
-# make_shirt(size='XSmall', message='tuto bene')
+random_number()
 
 
 
@@ -80,35 +62,53 @@
 
 
 
+exercice5
+
+def make_shirt(size='Large', message="i love python" ):
+   print(f'the size of the shirt is {size} and the text is {message}') 
+
+make_shirt()
+make_shirt('XL')
+make_shirt('Medium')
+make_shirt('Small', "ICI C'EST PARIS")
+make_shirt(size='XSmall', message='tuto bene')
 
 
-# exercice6
 
 
-# magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
 
-# def show_magicians(magicians):
+
+
+
+
+
+exercice6
+
+
+magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
+
+def show_magicians(magicians):
     
-#     for magician in magicians:
-#         print(magician)
+    for magician in magicians:
+        print(magician)
 
-# def make_great(magicians):
+def make_great(magicians):
    
-#     for i in range(len(magicians)):
-#         magicians[i] = magicians[i] + " the Great"
+    for i in range(len(magicians)):
+        magicians[i] = magicians[i] + " the Great"
 
 
-# make_great(magician_names)
+make_great(magician_names)
 
 
-# show_magicians(magician_names)
-
-
-
+show_magicians(magician_names)
 
 
 
-# exercice7
+
+
+
+exercice7
 
 
 import random
@@ -135,14 +135,14 @@ def season_range_from_month(month: int) -> tuple[float, float]:
         return (20, 40)
     elif month in (9, 10, 11):     
         return (10, 25)
-    else:
-        raise ValueError("Month must be between 1 and 12.")
+     else:
+         raise ValueError("Month must be between 1 and 12.")
 
-def get_random_temp(month: int | None = None, as_float: bool = True) -> float:
+ def get_random_temp(month: int | None = None, as_float: bool = True) -> float:
    
-    if month is None:
-        low, high = -10, 40
-    else:
+     if month is None:
+         low, high = -10, 40
+     else:
         low, high = season_range_from_month(month)
 
     if as_float:
