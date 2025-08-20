@@ -1,7 +1,7 @@
-exercices xp:
+# exercices xp:
 
 
-exercice 1:
+# exercice 1:
 
 def display_message():
     print('i am learning python')
@@ -13,7 +13,7 @@ display_message()
 
 
 
-exercice 2:
+# exercice 2:
 
 def fav_book(title):
     print(f'one of my fav books is {title} ')
@@ -25,7 +25,7 @@ fav_book('Harry Potter')
 
 
 
-exercice 3
+# exercice 3
 
 def describe_city(city, country):
     print(f'{city} is in {country}')
@@ -37,7 +37,7 @@ describe_city('Paris' , 'France')
 
 
 
-exercice4
+# exercice4
 
 import random
 
@@ -62,7 +62,7 @@ random_number()
 
 
 
-exercice5
+# exercice5
 
 def make_shirt(size='Large', message="i love python" ):
    print(f'the size of the shirt is {size} and the text is {message}') 
@@ -82,7 +82,7 @@ make_shirt(size='XSmall', message='tuto bene')
 
 
 
-exercice6
+# exercice6
 
 
 magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
@@ -108,7 +108,7 @@ show_magicians(magician_names)
 
 
 
-exercice7
+# exercice7
 
 
 import random
