@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task List</title>
+  <link rel="stylesheet" href="todolist.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-S8E3+0wqC4a1B4bEJwO2m2h4VZb4n2g1R0kZ+z2p5y9Tgqg8mQ3m9G7QvXcR1zJx6d2S1+Yw1e1b1aE6a6G0wQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <main class="container">
+    <h1>Tasks</h1>
+    <form id="taskForm" autocomplete="off">
+      <input id="taskInput" type="text" placeholder="Add a task..." />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="listTasks"></div>
+  </main>
+
+  <script src="todolist.js"></script>
+</body>
+ </html>
