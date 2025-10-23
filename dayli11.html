@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Giphy Fetcher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: rgba(236, 135, 12, 0.911);
+      color: rgb(237, 7, 206);
+      text-align: center;
+      padding: 20px;
+    }
+    form {
+      margin-bottom: 20px;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 15px;
+      margin: 5px;
+      cursor: pointer;
+      color:rgb(255, 0, 0)
+    }
+    #gif-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gif-box {
+      position: relative;
+      display: inline-block;
+    }
+    .gif-box img {
+      width: 250px;
+      border-radius: 8px;
+    }
+    .delete-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: red;
+      color: rgb(40, 228, 26);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎬 Random Giphy Fetcher</h1>
+  <form id="gif-form">
+    <input type="text" id="category" placeholder="Enter a category (e.g. sun)" required>
+    <button type="submit">Get GIF</button>
+    <button type="button" id="delete-all">DELETE ALL</button>
+  </form>
+
+  <div id="gif-container"></div>
+
+  <script src="dayli11.js"></script>
+</body>
+</html>
