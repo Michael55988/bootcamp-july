@@ -1,0 +1,22 @@
+URL: URL: https://github.com/Michael55988/bootcamp-july/blob/main/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes the dependencies and scripts for a React project. It does not implement the voting app logic described in the instructions.  The `package.json` provides the setup and dependencies for running a React application, but doesn't contain the application logic itself. Therefore, it does not address the core problem of creating a voting app.
+- The task asks for creating a React app with specific functionalities related to state management and event handling (voting logic). The `package.json` is a configuration file, and does not implement any of the specified functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Michael55988/bootcamp-july/blob/main/package-lock.json
+suggestions for improvement:
+- The provided code is a package-lock.json file, which describes the dependencies of a Node.js project. It does not contain any React code that implements the voting app as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Michael55988/bootcamp-july/blob/main/index.html
+suggestions for improvement:
+- The provided code is an HTML document, specifically the basic structure for a React application. However, it does not implement the voting app functionality as described in the problem description. The chapter content focuses on React components, state management, and event handling to create a voting app, but this HTML file only sets up the basic structure for the app (the root element where the React app will be rendered).
+- The provided HTML doesn't contain any React code implementing the state, components, or event handlers required by the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Michael55988/bootcamp-july/blob/main/eslint.config.js
+suggestions for improvement:
+- The provided code configures ESLint, which is a linting tool for JavaScript. While useful for code quality, it doesn't address the core task of building a React voting app as described in the chapter content. Therefore, it's irrelevant to the problem statement.
+Correctness: 0%
+-----
